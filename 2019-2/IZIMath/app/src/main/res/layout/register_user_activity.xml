@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/formulasWhiteBackground"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/Salsa-Regular"
+        android:gravity="center"
+        android:text="Registro usuarios"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:textColorHint="@color/black"
+        android:shadowColor="@color/black"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:id="@+id/user_et"
+        android:paddingLeft="80dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electronico"
+        android:textColorHint="@color/black"
+        android:shadowColor="@color/black"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:id="@+id/email_et"
+        android:paddingLeft="80dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:password="true"
+        android:textColorHint="@color/black"
+        android:shadowColor="@color/black"
+        android:textSize="20dp"
+        android:paddingBottom="30dp"
+        android:id="@+id/password_et"
+        android:paddingTop="40dp"
+        android:paddingLeft="80dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar contraseña"
+        android:textColorHint="@color/black"
+        android:shadowColor="@color/black"
+        android:textSize="20dp"
+        android:paddingBottom="30dp"
+        android:id="@+id/repassword_et"
+        android:paddingTop="40dp"
+        android:paddingLeft="80dp"
+        />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/atrasbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="15dp"
+            android:layout_marginLeft="80dp"
+            android:hint="Atrás" />
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Registrarse" />
+    </GridLayout>
+
+
+
+
+
+
+
+</LinearLayout>

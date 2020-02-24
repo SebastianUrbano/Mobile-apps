@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Clase7</string>
+
+
+    <!--Toolbar-->
+    <string name="logo_description">Cuarteto de Nos</string>
+    <string name="email">Correo electrónico</string>
+
+    <!--Ingreso-->
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_contra">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_ingresar_facebook">Ingresar con facebook</string>
+    <string name="btn_registrarse">Registrarse</string>
+
+    <!--Registro-->
+    <string name="hint_correo_signin">Correo electrónico</string>
+    <string name="hint_username_signin">Usuario</string>
+    <string name="hint_password_signin">Contraseña</string>
+    <string name="hint_repass_signin">Repetir contraseña</string>
+    <string name="text_cb_terms">Acepto términos y condiciones</string>
+    <string name="btn_signup">Registrarse</string>
+
+    <!--Profile-->
+    <string name="btn_random">Random</string>
+    <string name="label_console">Último número obtenido</string>
+
+    <!--Menú-->
+    <string name="action_settings">Salir</string>
+    <string name="action_clear">Limpiar</string>
+
+</resources>

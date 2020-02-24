@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "146369808143",
+    "firebase_url": "https://izimath-e242a.firebaseio.com",
+    "project_id": "izimath-e242a",
+    "storage_bucket": "izimath-e242a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146369808143:android:7a1fd4ec784d7f2c48e07a",
+        "android_client_info": {
+          "package_name": "com.example.telecracksapp.izimath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146369808143-vm4b4mjvpo6h814abt35kf0ac445ul77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.telecracksapp.izimath",
+            "certificate_hash": "6902bda5c81e2936b21f1f80e01f825951b664f9"
+          }
+        },
+        {
+          "client_id": "146369808143-pdio6g3gelglhfh1jbctluvt6uijr1s0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-1qZGY7gKiG0BKZV1isveHJbPPUB2BCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146369808143-pdio6g3gelglhfh1jbctluvt6uijr1s0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

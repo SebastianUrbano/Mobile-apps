@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824282361897",
+    "firebase_url": "https://proyectofinal-8db08.firebaseio.com",
+    "project_id": "proyectofinal-8db08",
+    "storage_bucket": "proyectofinal-8db08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824282361897:android:4afdcf7f53cfad59d6ac38",
+        "android_client_info": {
+          "package_name": "edu.co.icesi.appmoviles.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824282361897-d5trah9r6q7lh3j3kbddmp89v3fv1r95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.co.icesi.appmoviles.proyectofinal",
+            "certificate_hash": "6902bda5c81e2936b21f1f80e01f825951b664f9"
+          }
+        },
+        {
+          "client_id": "824282361897-fcdg04497hgu7o50jd58mjkc72t6kpcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-VZjtrXo-W1p5G0znwtky6mqFtjGFiKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824282361897-fcdg04497hgu7o50jd58mjkc72t6kpcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

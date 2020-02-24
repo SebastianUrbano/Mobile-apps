@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "604558866691",
+    "firebase_url": "https://izmath25.firebaseio.com",
+    "project_id": "izmath25",
+    "storage_bucket": "izmath25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604558866691:android:941073ea1e43594c5a5136",
+        "android_client_info": {
+          "package_name": "edu.co.icesi.appmoviles.izmath25"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604558866691-bfnc9mv9ocrbtfkkj8tqdn9b9bbb60md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.co.icesi.appmoviles.izmath25",
+            "certificate_hash": "6902bda5c81e2936b21f1f80e01f825951b664f9"
+          }
+        },
+        {
+          "client_id": "604558866691-89v561vep2c3gdkbucpn1o80s96ft94j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtUshWHIEpOOmOWFFL-BIwpRy4BhK0Q5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604558866691-89v561vep2c3gdkbucpn1o80s96ft94j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

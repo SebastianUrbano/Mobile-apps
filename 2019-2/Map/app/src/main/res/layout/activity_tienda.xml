@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical"
+        android:id="@+id/fragment_container"></LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Tienda Icesi"
+        android:gravity="center"
+        android:background="#06F"
+        android:textSize="20sp"/>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#EEE">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puntaje"
+            android:hint="Cantidad puntos: 0"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_vieww"
+            android:clickable="true"
+            android:dividerHeight="1dp"
+            android:layout_gravity="center"
+            ></ListView>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Comprar"
+            android:id="@+id/comprar"
+            android:layout_gravity="center_horizontal|bottom"
+            />
+
+
+        <!--Bottom Navigation bar-->
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

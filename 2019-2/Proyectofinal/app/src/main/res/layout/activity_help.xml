@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".NewPost">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/salsafamilyfont"
+            android:gravity="center"
+            android:hint="Ayuda"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#D5D5D5"
+            android:textSize="30dp"></TextView>
+
+        <ImageButton
+            android:id="@+id/menu_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_menu_white" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="390dp"
+        android:layout_height="136dp"
+        android:fontFamily="@font/salsafamilyfont"
+        android:gravity="center"
+        android:text="Haz una pregunta:"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <EditText
+        android:id="@+id/post_et"
+        android:layout_width="352dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:fontFamily="@font/salsafamilyfont"
+        android:gravity="start|top"
+        android:hint="Escriba su pregunta"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    <Button
+        android:id="@+id/backPost_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="480dp"
+        android:fontFamily="@font/salsafamilyfont"
+        android:text="Atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/backPost_btn"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/send_et"
+            android:layout_width="260dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/salsafamilyfont"
+            android:gravity="center"
+            android:text="Enviar"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#D5D5D5"
+            android:textSize="30dp"></TextView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

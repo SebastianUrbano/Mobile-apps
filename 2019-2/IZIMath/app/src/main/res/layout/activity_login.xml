@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/loginBackground"
+    android:orientation="vertical"
+    >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/Salsa-Regular"
+            android:gravity="center"
+            android:text="IZI Math"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:paddingBottom="2dp"
+            android:paddingTop="25dp"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/Salsa-Regular"
+        android:gravity="center"
+        android:text="Inicia Sesión"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:textColorHint="@color/white"
+        android:shadowColor="@color/white"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:id="@+id/user_et"
+        android:paddingLeft="80dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:password="true"
+        android:textColorHint="@color/white"
+        android:shadowColor="@color/white"
+        android:textSize="20dp"
+        android:paddingBottom="30dp"
+        android:id="@+id/password_et"
+        android:paddingTop="40dp"
+        android:paddingLeft="80dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/Salsa-Regular"
+        android:gravity="center"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="@color/white"
+        android:id="@+id/olvida_tv"
+        android:textSize="20dp"
+        android:paddingBottom="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Inicia"
+        android:id="@+id/inicia_bt"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/Salsa-Regular"
+        android:gravity="center"
+        android:text="Si no tienes cuenta, registrate"
+        android:textColor="@color/white"
+        android:id="@+id/registrar_tv"
+        android:textSize="20dp"
+        android:paddingTop="60dp"
+        android:paddingBottom="30dp"
+        />
+
+
+
+</LinearLayout>
